@@ -9,9 +9,9 @@ import { faArrowLeft, faChevronLeft, faChevronRight, faExpandAlt, faExpandArrows
 export default function Layout() {
     return (
         <>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row p-4 ">
-                    <div className="col-8">
+                    <div className="col-12 col-md-8 col-lg-8">
                         <div className="bg-secondary text-white d-flex p-2 justify-content-between align-items-center">
                             <div>
                                 <FontAwesomeIcon icon={faShareAlt}></FontAwesomeIcon>
@@ -38,7 +38,7 @@ export default function Layout() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-4  py-2 bg-secondary text-white ">
+                    <div className="col-12 col-md-4 col-lg-4  py-2 bg-secondary text-white ">
                         <div className=''>
                             <span><FontAwesomeIcon icon={faPaintBrush} className='mx-2'></FontAwesomeIcon>Styling</span>
                             <div className="d-flex justify-content-between my-2">
@@ -51,7 +51,7 @@ export default function Layout() {
                             </div>
                             <div className="d-flex justify-content-between my-2">
                                 <span>Branding Url </span>
-                                <input type="text"  ></input>
+                                <input type="text" className='w-50'  ></input>
                             </div>
                             <div className="d-flex justify-content-between my-2">
                                 <span>Stretched Background </span>
@@ -59,7 +59,7 @@ export default function Layout() {
                             </div>
                             <div className="d-flex justify-content-between my-2">
                                 <span>Background Color </span>
-                                <input type="text"  ></input>
+                                <input type="text" className='w-50'  ></input>
                             </div>
 
                             <div className="d-flex justify-content-between my-2">
@@ -70,8 +70,8 @@ export default function Layout() {
                             <div className="d-flex justify-content-between my-2">
                                 <span>Gradient Colors </span>
                                 <div >
-                                    <input type="text"  ></input>
-                                    <input type="text"  ></input>
+                                    <input type="text" className='w-50 '  ></input>
+                                    <input type="text" className='w-50 '  ></input>
                                 </div>
                             </div>
                             <div className="d-flex justify-content-between my-2">
@@ -80,7 +80,7 @@ export default function Layout() {
                             </div>
                             <div className="d-flex justify-content-between my-2">
                                 <span>Arrow Color</span>
-                                <input type="text"  ></input>
+                                <input type="text" className='w-50'  ></input>
                             </div>
                             <div className="d-flex justify-content-between my-2">
                                 <span>Arrow Size</span>
@@ -89,7 +89,7 @@ export default function Layout() {
                             </div>
                             <div className="d-flex justify-content-between my-2">
                                 <span>Panel Color</span>
-                                <input type="text"  ></input>
+                                <input type="text" className='w-50'  ></input>
                             </div>
                             <div className="d-flex justify-content-between my-2">
                                 <span>Panel Alpha</span>
@@ -98,7 +98,7 @@ export default function Layout() {
                             </div>
                             <div className="d-flex justify-content-between my-2">
                                 <span>Link Color</span>
-                                <input type="text"  ></input>
+                                <input type="text" className='w-50'  ></input>
                             </div>
                             <div className="d-flex justify-content-between my-2">
                                 <span>Link Alpha</span>
